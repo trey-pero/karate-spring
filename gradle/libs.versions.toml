@@ -1,0 +1,22 @@
+[versions]
+jwt = '0.11.5'
+karate = '1.4.1'
+lombok = '8.6'
+spring-boot = '3.3.2'
+spring-dependency-mgmt = '1.1.1'
+springdoc = '2.6.0'
+
+[plugins]
+lombok = { id = 'io.freefair.lombok', version.ref = 'lombok' }
+spring-dependency-mgmt = { id = 'io.spring.dependency-management', version.ref = 'spring-dependency-mgmt' }
+spring-boot = { id = 'org.springframework.boot', version.ref = 'spring-boot' }
+
+[libraries]
+jwt-api = { group = 'io.jsonwebtoken', name = 'jjwt-api', version.ref = 'jwt' }
+jwt-impl = { group = 'io.jsonwebtoken', name = 'jjwt-impl', version.ref = 'jwt' }
+jwt-jackson = { group = 'io.jsonwebtoken', name = 'jjwt-jackson', version.ref = 'jwt' }
+karate = { group = 'com.intuit.karate', name = 'karate-core', version.ref = 'karate' }
+spring-boot-starter-security = { group = 'org.springframework.boot', name = 'spring-boot-starter-security', version.ref = 'spring-boot' }
+spring-boot-starter-test = { group = 'org.springframework.boot', name = 'spring-boot-starter-test', version.ref = 'spring-boot' }
+spring-boot-starter-web = { group = 'org.springframework.boot', name = 'spring-boot-starter-web-services', version.ref = 'spring-boot' }
+springdoc-ui = { group = 'org.springdoc', name = 'springdoc-openapi-starter-webmvc-ui', version.ref = 'springdoc' }

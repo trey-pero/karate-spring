@@ -1,0 +1,5 @@
+
+jwt:
+  expiration:
+    ms: 15_000
+  secret: some-superdy-duper-secret-secret
