@@ -18,6 +18,8 @@ at least need Java 17 setup as your `JAVA_HOME` to run Gradle itself.
 
 `gradlew bootRun`
 
+Swagger documentation is available at `http://localhost:${server.port}/swagger-ui/index.html`
+
 ## How to run tests
 
 `gradlew test` - Ensure the application is running before running the tests
