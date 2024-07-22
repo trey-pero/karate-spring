@@ -12,7 +12,7 @@ Sample repo for integrating Spring DI/config into Karate
 ## Pre-requisites
 
 * `Java 17+` - This project uses the Gradle Java Toolchain to install Java 21 if necessary, but you will
-at least need Java 17 setup as your `JAVA_HOME` to run Gradle itself.
+at least need Java 17 or higher setup as your `JAVA_HOME` to run Gradle itself.
 
 ## How to run application
 
