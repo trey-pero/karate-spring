@@ -1,6 +1,8 @@
 # karate-spring
 Sample repo for integrating Spring DI/config into Karate
 
+[Dev Community Blog Post](https://dev.to/tdpero0516/level-up-your-karate-testing-with-spring-boot-di-42em)
+
 ## Technologies Used
 
 * [Java 21](https://www.java.com)
